@@ -127,7 +127,7 @@
       <h3>History</h3>
       <section>
         <h4>Notable Events</h4>
-        <img src="https://www.tripsinegypt.com/wp-content/uploads/2019/12/Giza-History-Trips-in-Egypt-1.jpg" alt="Giza's History" class="restrict1" />
+        <img src="https://www.tripsinegypt.com/wp-content/uploads/2019/12/Giza-History-Trips-in-Egypt-1.jpg" alt="Giza's History" class="restrict" />
         <p>
           Giza city is the capital of Giza governorate. Officially, it was founded in the fourth century BC. 
           It was probably a small village since ancient times of Egyptian history that located in the center 

@@ -105,12 +105,12 @@
         <p>It is very convenient for tourists to go around the downtown area by bus. The ticket price is CNY1; tourists
           should ensure they have small change prior to boarding, the price increases to CNY2 from May 15th to Oct 15th
           if the bus is operating its air conditioning.</p>
+          <img src="./res/fuzhou_transportation.jpg" alt="Fuzhou Transportation Statistics" class="restrict"/>
         <p>Around 5,000 taxis serve in the city. It is the best choice for people who have a tight schedule. If you go
           to the city for the first time, do ask the driver to charge by the meter in case of being overcharged. The
           flag-down rate is CNY10 for the first 3 kilometers (around 1.9 miles) and it costs CNY2 for each additional
           kilometer (0.6 mile). Between 23:00 and 05:00 the next day, the price of each extra kilometer rises 20%, i.e.
           CNY2.4. If a taxi runs farther than 8 kilometers (around 5miles), extra 50% is charged for empty return.</p>
-        <img src="./res/fuzhou_transportation.jpg" alt="Fuzhou Transportation Statistics" class="restrict1" />
       </section>
     </section>
     <section>
