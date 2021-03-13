@@ -7,7 +7,7 @@ body {
 	margin-top: 0px; 
 	margin-bottom: 50px;
 	background-color: white; 
-	font-size: 15.5px;
+	font-size: 16px;
 	margin-right: 0;
 	margin-left: 0;
 }
@@ -34,6 +34,7 @@ body {
 	padding-left: 13px;
 	padding-right: 13px;
 	border-radius: 10px;
+	padding-top: 130px;
 }
 
 /* Formatting for Banner & Navigation*/
@@ -43,8 +44,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-bottom: 5px solid #f7d543;
 	margin-bottom: 5px;
 }
@@ -57,6 +58,13 @@ body {
 	color: #007373;
 	font-family: 'Reggae One', cursive;
 }
+
+.banner {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 999;
+} /* For website navigation to stick as you scroll */
 
 .menu ul {
 	list-style-type: none;
@@ -85,7 +93,7 @@ body {
 .menu a:hover {
 	color: #e07b7b;
 	background-color: #d1d1d1;
-	transition: background-color 0.4s ease-in;
+	transition: background-color 0.3s ease-in;
 
 }
 
@@ -98,11 +106,20 @@ body {
 /* Formatting for imgages */
 
 .restrict {
-	max-width: 400px;
+	max-width: 380px;
 	float: right;
-	max-height: 400px;
+	max-height: 380px;
 	padding: 5px;
 	border-radius: 8px;
+}
+
+.restrict1 {
+	max-width: 380px;
+	float: left;
+	max-height: 380px;
+	padding: 5px;
+	border-radius: 8px;
+	margin: 4px;
 }
 
 /* Formatting Headings */
@@ -112,6 +129,8 @@ h2 {
 	text-align: center;
 	color: #e07b7b;
 	font-family: 'Reggae One', cursive;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 h3 {
