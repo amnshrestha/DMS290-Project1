@@ -7,9 +7,9 @@
 <div class="container">
   <main class="box">
     <h2>Fuzhou</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fuzhou_Taixi_CBD.jpg" alt="Fuzhou Skyline Skyline" class="restrict" />
     <section>
       <h3>About Fuzhou</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fuzhou_Taixi_CBD.jpg" alt="Fuzhou Skyline Skyline" class="restrict"/>
       <p>
         Fuzhou lies on the north (left) bank of the estuary of Fujian's largest river, the Min River. All along its
         northern border lies Ningde, and Ningde's Gutian County lies upriver. Its population was 7,115,370 inhabitants
@@ -116,7 +116,7 @@
     <section>
       <h3>History</h3>
       <img src="https://youimg1.tripcdn.com/target/100r1f000001goo4n2AF1.jpg?proc=source%2Ftrip"
-        alt="Fuzhou Street Life" />
+        alt="Fuzhou Street Life" class="restrict" />
       <section>
         <h4>Notable Events</h4>
         <p>Fuzhou was occupied by People's Liberation Army with little resistance on 17 August 1949.</p>
@@ -138,8 +138,8 @@
     </section>
     <section>
       <h3>Major Attractions</h3>
-      <img src="https://www.visitourchina.com/fileupload/FileUpload/110801155310194.jpg" alt="Drum Hill" class="restrict" />
       <h4>Sanfang Qixiang</h4>
+       <img src="https://www.visitourchina.com/fileupload/FileUpload/110801155310194.jpg" alt="Drum Hill" class="restrict"/>
       <p>
         Sanfang Qixiang is the only remaining old quarter of Fuzhou. Preserving over 200 ancient folk houses mainly from
         the Ming and Qing dynasties, it is reputed as the “Architecture Museum of the Ming and Qing Dynasties”. Since
@@ -159,7 +159,7 @@
         denudation, weathering, collapse and accumulation in the historical development. Besides, many inscriptions on
         precipices left in past dynasties are also the highlights in the hill.
       </p>
-      <h3>Fujian Museum</h3>
+      <h4>Fujian Museum</h4>
       <p>Fujian Museum (Chinese: 福建博物院) is the provincial museum of Fujian province in China established in 1933. It is
         located in the city capital of Fuzhou at No. 96, Hutou Jie next to the West Lake Park.</p>
       <p>The museum was completed in October 2002, covering an area of 6 hectares and a building area of 36,000 square
