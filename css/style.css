@@ -52,6 +52,31 @@ body {
 	justify-content: space-around;
 }
 
+.menu a{
+	text-decoration: none;
+	color: #799351;
+	display: block;
+	border-radius: 10px;
+	background-color: ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.menu a:hover {
+	color: #e07b7b;
+	background-color: #d1d1d1;
+	transition: background-color 0.2s ease-in;
+
+}
+
+.menu a.is-current {
+	color: #e07b7b;
+	background-color: #415424;
+	transition: background-color 0.1s ease-in;
+}
+
 /* Formatting for imgages */
 
 .restrict {
