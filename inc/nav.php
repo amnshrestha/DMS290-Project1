@@ -2,10 +2,10 @@
   <h1>metropolis</h1>
   <nav class="menu">
     <ul>
-        <li><a href="yangzhou.html">yangzhou</a></li>
-        <li><a href="fuzhou.html">fuzhou</a></li>
-        <li><a href="giza.html">giza</a></li>
-        <li><a href="sf.html">san fransico</a></li>
+        <li><a href="yangzhou.php">yangzhou</a></li>
+        <li><a href="fuzhou.php">fuzhou</a></li>
+        <li><a href="giza.php">giza</a></li>
+        <li><a href="sf.php">san fransico</a></li>
     </ul>
   </nav>
 </header>
