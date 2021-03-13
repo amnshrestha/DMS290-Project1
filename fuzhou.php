@@ -1,16 +1,15 @@
-<!doctype html>
-<html>
-
-<head>
-  <title>Fuzhou</title>
-</head>
+<?php include "inc/html-top.php"; ?> <!-- HTML head -->
 
 <body>
-  <main>
-    <h1>Fuzhou</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fuzhou_Taixi_CBD.jpg" alt="Fuzhou Skyline Skyline" />
+
+<?php include "inc/nav.php"; ?> <!--Banner & Navigation -->
+
+<div class="container">
+  <main class="box">
+    <h2>Fuzhou</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fuzhou_Taixi_CBD.jpg" alt="Fuzhou Skyline Skyline" class="restrict" />
     <section>
-      <h2>About Fuzhou</h2>
+      <h3>About Fuzhou</h3>
       <p>
         Fuzhou lies on the north (left) bank of the estuary of Fujian's largest river, the Min River. All along its
         northern border lies Ningde, and Ningde's Gutian County lies upriver. Its population was 7,115,370 inhabitants
@@ -23,10 +22,8 @@
       </p>
     </section>
     <section>
-      <h2>Cuisine</h2>
-      <img
-        src="http://www.chinadaily.com.cn/m/fujian/images/attachement/jpg/site1/20180823/286ed488c82f1ce85aad03.jpg"
-        alt="Fotiaoqiang" />
+      <h3>Cuisine</h3>
+      <img src="http://www.chinadaily.com.cn/m/fujian/images/attachement/jpg/site1/20180823/286ed488c82f1ce85aad03.jpg" alt="Fotiaoqiang" class="restrict1" />
       <p>
         Fuzhou dishes are representative of the Min (which is short for Fujian Province) Cuisine that is
         very much a feature of Fujian Province and is one of the Eight Major Cuisines of China . One of the most
@@ -50,7 +47,7 @@
       </p>
     </section>
     <section>
-      <h2>Economy</h2>
+      <h3>Economy</h3>
       <p>
         Industry is supplied with power by a grid running from the Gutian hydroelectric scheme in the
         mountains to the northwest. The city is a center for commercial banking, designer brands and
@@ -81,13 +78,13 @@
       </p>
     </section>
     <section>
-      <h2>Geography</h2>
+      <h3>Geography</h3>
       <p>
         The city of Fuzhou has direct jurisdiction over 6 districts, 1 county-level city, and 6 counties:
       </p>
-      <img src="https://www.travelchinaguide.com/images/map/fujian-fuzhou.jpg" alt="Map of Fuzhou" />
+      <img src="https://www.travelchinaguide.com/images/map/fujian-fuzhou.jpg" alt="Map of Fuzhou" class="restrict" />
       <section>
-        <h3>Neighborhoods</h3>
+        <h4>Neighborhoods</h4>
         <p>
           The administrative divisions of Fuzhou have been changed frequently throughout history. From 1983, the Fuzhou
           current administrative divisions were formed officially, namely, 5 districts and 8 counties. In 1990 and 1994,
@@ -98,7 +95,7 @@
         </p>
       </section>
       <section>
-        <h3>Transportation</h3>
+        <h4>Transportation</h4>
         <p>Fuzhou metro now has Line 1 and Line 2 in service. Line 1 runs between Xiangfeng and South Railway Station.
           Line 2 links Suyang and Yangli. According to the long-term plan, Line 3, Line 4, Line 5, Line 6 and Line 7
           will form the basic urban rail network. Lines 5 and 7 will travel across the Minjiang River, and line 4 will
@@ -113,15 +110,15 @@
           flag-down rate is CNY10 for the first 3 kilometers (around 1.9 miles) and it costs CNY2 for each additional
           kilometer (0.6 mile). Between 23:00 and 05:00 the next day, the price of each extra kilometer rises 20%, i.e.
           CNY2.4. If a taxi runs farther than 8 kilometers (around 5miles), extra 50% is charged for empty return.</p>
-        <img src="./res/fuzhou_transportation.jpg" alt="Fuzhou Transportation Statistics" />
+        <img src="./res/fuzhou_transportation.jpg" alt="Fuzhou Transportation Statistics" class="restrict1" />
       </section>
     </section>
     <section>
-      <h2>History</h2>
+      <h3>History</h3>
       <img src="https://youimg1.tripcdn.com/target/100r1f000001goo4n2AF1.jpg?proc=source%2Ftrip"
         alt="Fuzhou Street Life" />
       <section>
-        <h3>Notable Events</h3>
+        <h4>Notable Events</h4>
         <p>Fuzhou was occupied by People's Liberation Army with little resistance on 17 August 1949.</p>
         <p>In the 1950s, the city was on the front line of the conflict with KMT in Taiwan, as hostile KMT aircraft
           frequently bombed the city. The bombing on 20 January 1955 was the most serious one, killing hundreds of
@@ -140,9 +137,9 @@
       </section>
     </section>
     <section>
-      <h2>Major Attractions</h2>
-      <img src="https://www.visitourchina.com/fileupload/FileUpload/110801155310194.jpg" alt="Drum Hill" />
-      <h3>Sanfang Qixiang</h3>
+      <h3>Major Attractions</h3>
+      <img src="https://www.visitourchina.com/fileupload/FileUpload/110801155310194.jpg" alt="Drum Hill" class="restrict" />
+      <h4>Sanfang Qixiang</h4>
       <p>
         Sanfang Qixiang is the only remaining old quarter of Fuzhou. Preserving over 200 ancient folk houses mainly from
         the Ming and Qing dynasties, it is reputed as the “Architecture Museum of the Ming and Qing Dynasties”. Since
@@ -152,7 +149,7 @@
         the west of Nanhou Street. The seven alleys are located to the east of Nanhou Street, which are Yangqiao Alley,
         Langguan Alley, Ta Alley, Huang Alley, Anmin Alley, Gong Alley and Jibi Alley.
       </p>
-      <h3>Drum Hill</h3>
+      <h4>Drum Hill</h4>
       <p>
         With a main peak of 925 meters above sea level and a total area of 48 square kilometers, Drum Hill or Mount Gu
         is the most famous beauty spot in Fuzhou City. Listed into the national scenic spots in China, Drum Hill
@@ -170,7 +167,12 @@
       <p>As a national first-class museum, the Fujian Museum has a collection of more than 170,000 relics and natural
         specimens.</p>
     </section>
-  </main>
+  </main> <!-- .box -->
+
+</div> <!-- .container -->
+
+<?php include "inc/footer.php"; ?> <!-- Footer and source -->
+
 </body>
 
 </html>
