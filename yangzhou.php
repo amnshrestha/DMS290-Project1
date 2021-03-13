@@ -7,21 +7,21 @@
 <div class="container">
   <main class="box">
     <h2>Yangzhou</h2>
-    <section class="box1">
+    <section>
       <h3>About Yangzhou</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Five_Pavilion_bridge.jpg/500px-The_Five_Pavilion_bridge.jpg" alt="Yangzhou" class="restrict"/>
       <p>
         Yangzhou is a prefecture-level city in central Jiangsu Province, China. Historically, Yangzhou was one of the wealthiest cities in China, known at various periods for its great merchant families, poets, artists, and scholars. Its name refers to its former position as the capital of the ancient Yangzhou prefecture in imperial China. Yangzhou was one of the first cities to benefit from one of the earliest world bank loans in China, used to construct Yangzhou thermal power station in 1994. Sitting on the north bank of the Yangtze, it borders the provincial capital Nanjing to the southwest, Huai'an to the north, Yancheng to the northeast, Taizhou to the east, and Zhenjiang across the river to the south. Its population was 4,414,681 at the 2010 census and its urban area is home to 2,146,980 inhabitants, including three urban districts, currently in the agglomeration.
       </p>
     </section>
-    <section class="box2">
+    <section>
       <h3>Cuisine</h3>
       <img src="https://www.goatsontheroad.com/wp-content/uploads/2012/11/Living-In-Yangzhou-China.jpg" alt="Yangzhou food" class="restrict1"/>
       <p>
         Yangzhou dishes may be one of the reasons why the people of Yangzhou are so infatuated with their city. They have an appealing color, aroma, taste and appearance. The original color of each ingredient is preserved after cooking, and no oily sauce is added, so as to retain the fresh flavour of the food. In Yangzhou all dishes, whether cheap or expensive, are elaborate. Cooks will not scrimp on their work, even with dazhu gansi (Chinese: 大煮干丝; pinyin: dàzhǔ gānsī), a popular dish that costs only a few yuan. Dry bean curd is made by each restaurant that serves it, so the flavor is guaranteed. The cook slices the 1-cm-thick curd into 30 shreds, each one paper-thin but none broken, and then stews them for hours with chopped bamboo shoots and shelled shrimps in chicken soup. In this way the dry bean curd shreds can soak up the flavor of the other ingredients, and the soup is clear but savory. Not only Yangzhou cooks, but also the ordinary people are conscientious about cooking.
       </p>
     </section>
-    <section class="box3">
+    <section>
       <h3>Economy</h3>
       <p>
         In the process of economic development, Yangzhou attaches great importance to building high-quality platforms and carriers for enterprises. The city has built 11 development parks above the provincial level. There are more than 12,000 existing enterprises in the park, including nearly 1,300 industrial enterprises above designated size. In 2018, 11 development parks above the provincial level completed a GDP of 293.84 billion yuan, accounting for 53.8% of the city. Among them, Yangzhou Economic and Technological Development Zone focuses on the development of green optoelectronics, automobiles and parts and other industries. Yangzhou High-tech Industrial Development Zone focuses on the development of CNC equipment manufacturing, biotechnology and other industries.
@@ -29,7 +29,7 @@
       <p>Under the guidance of technological innovation, in 2018, the city achieved a GDP of 546.617 billion yuan, a comparable growth of 6.7%, and a per capita GDP of 18,277 US dollars. The general public budget revenue is 34.003 billion yuan. The per capita disposable income of urban permanent residents and the per capita disposable income of rural permanent residents reached 4,1999 yuan and 21,457 yuan respectively, with increases of 8.2% and 8.9% respectively. Total retail sales of social consumer goods was 155.703 billion yuan, with an increase of 9.2%</p>
     
     </section>
-    <section class="box4">
+    <section>
       <h3>Geography</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Administrative_Division_Yangzhou.png/830px-Administrative_Division_Yangzhou.png" alt="Yangzhou Map" class="restrict"/>
       <section>
@@ -48,7 +48,7 @@
         <p>In 2014, Yangzhou's government approved plans for the construction of a subway system, which will initially include two lines. Line 1 will run in the general east-west direction, from Yangzhou Railway Station in the west to the historic central city to the future high-speed railway station (east of the Grand Canal) to Jiangdu District. Line 2 will run in the general north-south direction.</p>
       </section>
     </section>
-    <section class="box5">
+    <section>
       <h3>History</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Yangzhou_massacre.jpg" alt="Late Qing artist"  class="restrict"/>
       <section>
@@ -58,7 +58,7 @@
         <p>Yangzhou is famous for its carved lacquerware and jade. Its famous "FeiCuiBaiCai" is a world famous carved jade and was displayed in the Chinese National Pavilions during the EXPO 2010 Shanghai Jade carving is one of the oldest carving varieties in China. Jade is processed and carved into exquisite crafts, called jade carvings. </p>
       </section>
     </section>
-    <section class="box6">
+    <section>
       <h3>Major Attractions</h3>
       <h4>Slender West Lake</h4>
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Xu_Garden.jpg" alt="The Xu Garden" class="restrict1"/> 
