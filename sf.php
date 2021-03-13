@@ -1,19 +1,16 @@
-<!doctype html>
-
-<html>
-
-<head>
-  <title>San Francisco</title>
-</head>
+<?php include "inc/html-top.php"; ?> <!-- HTML head -->
 
 <body>
-  <main>
-    <h1>San Francisco</h1>
-    <img src="http://bmart13.digitalscholar.rochester.edu/assignment03/images/san_Francisco.jpg"
-      alt="San Francisco Skyline Skyline" />
 
+<?php include "inc/nav.php"; ?> <!--Banner & Navigation -->
+
+<div class="container">
+  <main class="box">
+    <h2>San Francisco</h2>
     <section>
-      <h2>About San Francisco</h2>
+      <h3>About San Francisco</h3>
+      <img src="http://bmart13.digitalscholar.rochester.edu/assignment03/images/san_Francisco.jpg"
+      alt="San Francisco Skyline Skyline" class="restrict"/>
       <p>
         San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and financial center
         of Northern California.
@@ -35,9 +32,9 @@
     </section>
 
     <section>
-      <h2>Cuisine</h2>
+      <h3>Cuisine</h3>
       <img src="https://ww2.kqed.org/app/uploads/sites/10/2017/04/GettyImages-80811914-1020x680.jpg"
-        alt="Sourdough Bread" />
+        alt="Sourdough Bread" class="restrict1" />
       <p>
         In a place where nourishment was scarce, bread starter (a dough that has fermented using naturally occurring
         bacteria and yeast)
@@ -60,7 +57,7 @@
     </section>
 
     <section>
-      <h2>Economy</h2>
+      <h3>Economy</h3>
       <p>
         San Francisco has a diversified service economy, with employment spread across a wide range of professional
         services,
@@ -84,11 +81,11 @@
     </section>
 
     <section>
-      <h2>Geography</h2>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/San_Francisco_districts_map.png"
-        alt="Map of San Francisco" />
+      <h3>Geography</h3>
       <section>
-        <h3>Neighborhoods</h3>
+        <h4>Neighborhoods</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/San_Francisco_districts_map.png"
+        alt="Map of San Francisco" class="restrict" />
         <p>
           The historic center of San Francisco is the northeast quadrant of the city anchored by Market Street and the
           waterfront.
@@ -115,7 +112,7 @@
         </p>
       </section>
       <section>
-        <h3>Transportation</h3>
+        <h4>Transportation</h4>
         <p>Bay Area Rapid Transit's, or BART's, all-electric trains are a fast, inexpensive, and dependable way to get
           from SFO to San Francisco easily and avoiding traffic. Once you have your luggage, follow the signs for
           AirTrain, a free tram service to all terminals. Take either the Red or Blue AirTrain line to the Garage G and
@@ -128,6 +125,7 @@
           machine in the station. Clipper Multi-transit cards ($3 surcharge) are also available for purchase at
           designated ticket machines in BART stations. It can be used on BART and other transit systems including Muni
           buses and Street cars in San Francisco.</p>
+          <img src="./res/sf_transportation.jpg" alt="San Francisco Transportation Statistics" class="restrict1" />
         <p>
           Muni is San Francisco’s bus and metro system that runs throughout the city, operating buses, trains, cable
           cars and the F-line heritage streetcar. Muni buses remain above ground and on streets while Muni Metro runs on
@@ -136,22 +134,22 @@
           underground stations. Using the Metro Map, find the nearest Metro to your location. Find more information on
           how to use Muni and Muni Metro.
         </p>
-        <img src="./res/sf_transportation.jpg" alt="San Francisco Transportation Statistics" />
+        
       </section>
     </section>
 
     <section>
-      <h2>History</h2>
-      <img src="http://bmart13.digitalscholar.rochester.edu/assignment03/images/SanFrancisco.jpeg"
-        alt="Trans America Building" />
+      <h3>History</h3>
       <section>
+        <img src="http://bmart13.digitalscholar.rochester.edu/assignment03/images/SanFrancisco.jpeg"
+        alt="Trans America Building" class="restrict" />
         <p>
           San Francisco was founded on June 29, 1776, when colonists from Spain established the Presidio of San
           Francisco at the Golden Gate and Mission San Francisco de Asís a few miles away, both named for Francis of
           Assisi. The California Gold Rush of 1849 brought rapid growth, making it the largest city on the West Coast
           at the time. San Francisco became a consolidated city-county in 1856.
         </p>
-        <h3>Notable Events</h3>
+        <h4>Notable Events</h4>
         <p>
           The California Gold Rush brought a flood of treasure seekers (known as "forty-niners", as in "1849"). With
           their sourdough bread
@@ -175,10 +173,10 @@
     </section>
 
     <section>
-      <h2>Major Attractions</h2>
+      <h3>Major Attractions</h3>
+      <h4>Golden Gate Bridge</h4>
       <img src="https://www.planetware.com/photos-large/USCA/california-san-francisco-golden-gate-bridge.jpg"
-        alt="Golden Gate Bridge" />
-      <h3>Golden Gate Bridge</h3>
+        alt="Golden Gate Bridge" class="restrict" />
       <p>
         The Golden Gate Bridge is a California icon gracing San Francisco Bay. It is the most photographed site in the
         city, with
@@ -186,7 +184,7 @@
         flood-lit
         structure is equally striking.
       </p>
-      <h3>Alcatraz</h3>
+      <h4>Alcatraz</h4>
       <p>
         The historic and notorious Alcatraz penitentiary, located on Alcatraz Island in San Francisco Bay, is one of
         America's
@@ -196,7 +194,7 @@
         would
         later form the basis for the fictional movie The Birdman of Alcatraz.
       </p>
-      <h3>Cable Cars</h3>
+      <h4>Cable Cars</h4>
       <p>
         Cable Cars were introduced in 1873 to help locals contend with the many hills the city is built on. Today, the
         few
@@ -206,7 +204,12 @@
         monument.
       </p>
     </section>
-  </main>
+  </main> <!-- .box -->
+
+</div> <!-- .container --> 
+
+<?php include "inc/footer.php"; ?> <!-- Footer and source -->
+
 </body>
 
 </html>
