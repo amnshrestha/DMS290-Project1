@@ -1,30 +1,8 @@
-<!doctype html>
-<html>
-
-<head>
-  <title>Yangzhou</title>
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Fonts: -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Reggae+One&display=swap" rel="stylesheet">
-
-</head>
+<?php include "inc/html-top.php"; ?> <!-- HTML head -->
 
 <body>
 
-<header class="banner">
-  <h1>metropolis</h1>
-  <nav class="menu">
-    <ul>
-        <li><a href="yangzhou.html">yangzhou</a></li>
-        <li><a href="fuzhou.html">fuzhou</a></li>
-        <li><a href="giza.html">giza</a></li>
-        <li><a href="sf.html">san fransico</a></li>
-    </ul>
-  </nav>
-</header> <!--Banner & Navigation -->
-
+<?php include "inc/nav.php"; ?> <!--Banner & Navigation -->
 
 <div class="container">
   <main class="box">
@@ -98,10 +76,7 @@
 
 </div> <!-- .container -->
 
-  <footer>
-    <div>Source: <a href= "http://bmart13.digitalscholar.rochester.edu/assignment03/">San Fransico</a></div>
-    <div>Winnie Wan - Bianca Hall - Duncan Grubbs for DMS 290</div>
-  </footer>
+<?php include "inc/footer.php"; ?> <!-- Footer and source -->
 
 </body>
 
