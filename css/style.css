@@ -81,7 +81,6 @@ body {
 	color: #004a4a;
 	display: block;
 	border-radius: 10px;
-	background-color: ;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 6px;
@@ -99,7 +98,7 @@ body {
 
 .menu a.is-current {
 	color: #e07b7b;
-	background-color: #415424;
+	background-color: #d1d1d1;
 	transition: background-color 0.1s ease-in;
 }
 

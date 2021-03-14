@@ -78,6 +78,8 @@
 
 <?php include "inc/footer.php"; ?> <!-- Footer and source -->
 
+<?php include "inc/scripts.php"; ?> <!--jQuery Library, Menu Highlighter, Scroll progress bar -->
+
 </body>
 
 </html>
