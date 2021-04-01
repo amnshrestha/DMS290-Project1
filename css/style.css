@@ -14,6 +14,10 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Container for Layout*/
 
 .container {
