@@ -1,7 +1,5 @@
 /* Stylesheet for Project 01 */
-
 body {
-	font-family: 'Montserrat', "trebuchet ms", palatino, georgia, helvetica, arial, sans-serif;
 	letter-spacing: -0.25px;
 	line-height: 1.8em;
 	margin-top: 0px; 
@@ -10,6 +8,10 @@ body {
 	margin-right: 0;
 	margin-left: 0;
 	margin-bottom: 0;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*Container for Layout*/
@@ -122,8 +124,12 @@ body {
 }
 
 /* Formatting Headings */
+h1 {
+	font-family: 'Playfair Display', serif;
+}
 
 h2 {
+	font-family: 'Playfair Display', serif;
 	font-size: 55px;
 	text-align: center;
 	color: #e07b7b;
@@ -133,11 +139,13 @@ h2 {
 }
 
 h3 {
+	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 	color: #008585;
 }
 
 h4 {
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	color: #00a1a1;
 }
