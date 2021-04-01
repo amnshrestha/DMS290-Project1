@@ -1,9 +1,29 @@
-<?php include "inc/html-top.php"; ?> <!-- HTML head -->
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+  <title>metropolis</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fonts: -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Reggae+One&display=swap" rel="stylesheet">
+
+</head>
 <body>
 
-<?php include "inc/nav.php"; ?> <!--Banner & Navigation -->
-
+<header class="banner">
+  <h1>metropolis</h1>
+  <nav class="menu">
+    <ul>
+        <li><a href="yangzhou.html">yangzhou</a></li>
+        <li><a href="fuzhou.html">fuzhou</a></li>
+        <li><a href="giza.html">giza</a></li>
+        <li><a href="sf.html">san francisco</a></li>
+    </ul>
+  </nav>
+</header>
 <div class="container">
   <main class="box">
     <h2>Yangzhou</h2>
@@ -76,9 +96,13 @@
 
 </div> <!-- .container -->
 
-<?php include "inc/footer.php"; ?> <!-- Footer and source -->
+<footer>
+  <div>Source: <a href= "http://bmart13.digitalscholar.rochester.edu/assignment03/">San Francisco</a></div>
+  <div>Winnie Wan - Aman Shrestha - Duncan Grubbs for DMS 290</div>
+</footer>
 
-<?php include "inc/scripts.php"; ?> <!--jQuery Library, Menu Highlighter -->
+<script src="http://code.jquery.com/jquery.js"></script> 
+<script src="js/menu-highlighter.js"></script>
 
 </body>
 
