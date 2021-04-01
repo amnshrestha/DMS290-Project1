@@ -23,7 +23,7 @@ a {
 .container {
 	margin: 0 auto;
 	width: 93%;
-	max-width: 800px;
+	max-width: 1200px;
 	display: grid;
 }
 
@@ -43,6 +43,16 @@ a {
 	padding-top: 130px;
 }
 
+section {
+  display: flex;
+  padding: 16px;
+}
+
+.f-text {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Formatting for Banner & Navigation*/
 
 .banner{
@@ -50,6 +60,7 @@ a {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
+  justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: 5px solid #f7d543;
@@ -58,8 +69,7 @@ a {
 
 .banner h1 {
 	margin-top: 0;
-	padding-top: 15px;
-	margin-left: 400px;
+  margin: auto 0;
 	font-size: 45px;
 	color: #007373;
 }
@@ -77,8 +87,6 @@ a {
 	display: flex;
 	justify-content: space-around;
 	max-width: 800px;
-	margin-right: 400px;
-
 }
 
 .menu a{
@@ -109,21 +117,12 @@ a {
 
 /* Formatting for imgages */
 
-.restrict {
-	max-width: 380px;
-	float: right;
+.restrict, .restrict1 {
+	max-width: 320px;
+	/* float: right; */
 	max-height: 380px;
-	padding: 5px;
+	margin-right: 16px;
 	border-radius: 8px;
-}
-
-.restrict1 {
-	max-width: 380px;
-	float: left;
-	max-height: 380px;
-	padding: 5px;
-	border-radius: 8px;
-	margin: 4px;
 }
 
 /* Formatting Headings */
@@ -134,7 +133,6 @@ h1 {
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 55px;
-	text-align: center;
 	color: #e07b7b;
 	margin-bottom: 30px;
 	margin-top: 30px;
@@ -143,12 +141,14 @@ h2 {
 h3 {
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
+  margin: 4px 0;
 	color: #008585;
 }
 
 h4 {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
+  margin: 4px 0;
 	color: #00a1a1;
 }
 
