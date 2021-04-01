@@ -12,6 +12,7 @@ body {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+  margin: 4px 0;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 .container {
 	margin: 0 auto;
 	width: 93%;
-	max-width: 1200px;
+	max-width: 1600px;
 	display: grid;
 }
 
@@ -123,6 +124,10 @@ section {
 	max-height: 380px;
 	margin-right: 16px;
 	border-radius: 8px;
+}
+
+.banner-img {
+  max-width: 100%;
 }
 
 /* Formatting Headings */
