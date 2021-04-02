@@ -52,6 +52,10 @@ section {
   flex-direction: column;
 }
 
+.z-text {
+  font-size: 1.3em;
+}
+
 /* Formatting for Banner & Navigation*/
 header.banner-wrapper {
   width: 100vw;
