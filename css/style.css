@@ -36,12 +36,10 @@ a {
 	grid-row-gap: 5px;
 	height: auto;
 	margin-bottom: 10px;
-	margin-top: 4px;
 	background-color: #f5f5f5;
-	padding-left: 13px;
-	padding-right: 13px;
+	padding: 32px;
 	border-radius: 10px;
-	padding-top: 130px;
+	margin-top: 130px;
 }
 
 section {
@@ -55,6 +53,17 @@ section {
 }
 
 /* Formatting for Banner & Navigation*/
+header.banner-wrapper {
+  width: 100vw;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  height: 100px;
+  position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
 
 .banner{
 	background-color: white;
@@ -66,21 +75,14 @@ section {
 	padding-bottom: 10px;
 	border-bottom: 5px solid #f7d543;
 	margin-bottom: 5px;
+  width: 100%;
 }
 
 .banner h1 {
-	margin-top: 0;
-  margin: auto 0;
+  margin: auto 16px;
 	font-size: 45px;
 	color: #007373;
 }
-
-.banner {
-	position: fixed;
-	right: 0;
-	left: 0;
-	z-index: 999;
-} /* For website navigation to stick as you scroll */
 
 .menu ul {
 	list-style-type: none;
@@ -139,8 +141,7 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 55px;
 	color: #e07b7b;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin: 32px 16px;
 }
 
 h3 {
